@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Boxes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            width: 80%;
+            max-width: 300px;
+            background-color: #dcdcf5;
+            text-align: center;
+            padding: 10px;
+			
+            margin: 20px -1200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        select {
+            width: 100%;
+            padding: 6px;
+            margin-top: 10px;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .box {
+                width: 45%;
+                margin-right: 5%;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .box {
+                width: 30%;
+                margin-right: 2%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h3>cloud computing</h3>
+        <select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+            <option value="option6">Option 6</option>
+        </select>
+    </div>
+
+    <div class="box">
+        <h3>networking</h3>
+        <select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+            <option value="option6">Option 6</option>
+        </select>
+    </div>
+
+    <div class="box">
+        <h3>COA</h3>
+        <select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+            <option value="option6">Option 6</option>
+        </select>
+    </div>
+
+    <div class="box">
+        <h3>Subject 4</h3>
+        <select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+            <option value="option6">Option 6</option>
+        </select>
+    </div>
+
+</body>
+</html>
